@@ -13,4 +13,4 @@ def negafibonachi (number):
      return fib_list
 
 n = int(input("Enter number N of Fibonachi: "))
-print(negafibonachi(n))
+print(*negafibonachi(n))
